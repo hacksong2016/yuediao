@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="245" id="KGk-i7-Jjw" customClass="XTThirdTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="410" height="245"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="410" height="244.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="0" translatesAutoresizingMaskIntoConstraints="NO" id="ykc-PL-Xti">
+                        <rect key="frame" x="10" y="10" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="E9C-YT-qTg"/>
+                            <constraint firstAttribute="height" constant="40" id="ojI-SE-R2k"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3630俱乐部" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rgM-NE-Wpj">
+                        <rect key="frame" x="60" y="10" width="77" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2016年09月08日" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VVx-1N-IQ9">
+                        <rect key="frame" x="298" y="10" width="102" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wtQ-gT-5Zf">
+                        <rect key="frame" x="10" y="58" width="140" height="126"/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="VVx-1N-IQ9" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="309-hl-T6A"/>
+                    <constraint firstAttribute="trailing" secondItem="VVx-1N-IQ9" secondAttribute="trailing" constant="10" id="PjB-Xx-0cd"/>
+                    <constraint firstItem="rgM-NE-Wpj" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="QoB-Pk-bZv"/>
+                    <constraint firstItem="ykc-PL-Xti" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="S0J-iB-Jfh"/>
+                    <constraint firstItem="rgM-NE-Wpj" firstAttribute="leading" secondItem="ykc-PL-Xti" secondAttribute="trailing" constant="10" id="Wx5-aa-EiL"/>
+                    <constraint firstItem="ykc-PL-Xti" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="fg7-H6-p3W"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="310" y="400.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="0" width="201" height="200"/>
+    </resources>
+</document>

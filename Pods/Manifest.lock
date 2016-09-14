@@ -1,0 +1,31 @@
+PODS:
+  - AMap2DMap (4.2.0):
+    - AMapFoundation (~> 1.2)
+  - AMapFoundation (1.2.0)
+  - AMapLocation (2.1.1):
+    - AMapFoundation (~> 1.2)
+  - FDFullscreenPopGesture (1.1)
+  - Masonry (1.0.1)
+  - SDCycleScrollView (1.65):
+    - SDWebImage (~> 3.7)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+
+DEPENDENCIES:
+  - AMap2DMap
+  - AMapLocation
+  - FDFullscreenPopGesture
+  - Masonry
+  - SDCycleScrollView (~> 1.64)
+
+SPEC CHECKSUMS:
+  AMap2DMap: 82228a353bafa585f58c600bf7ee4687072b2e43
+  AMapFoundation: 8acc2bf4eed79aab4d21002ddb8b24a6f3f3621c
+  AMapLocation: dd203f76b034ef5cb546600f4e1ffad2a3a14072
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
+  SDCycleScrollView: f72904c77698a7f93a41bcbbc2d78b073bf7326c
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+
+COCOAPODS: 0.39.0

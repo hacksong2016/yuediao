@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="104" id="KGk-i7-Jjw" customClass="XTPublishCell">
+            <rect key="frame" x="0.0" y="0.0" width="387" height="104"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="387" height="103.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1470020274400339" translatesAutoresizingMaskIntoConstraints="NO" id="XPj-if-eh3">
+                        <rect key="frame" x="10" y="10" width="80" height="80"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="80" id="1mc-b0-lH7"/>
+                            <constraint firstAttribute="width" constant="80" id="I4Y-33-swQ"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="西沙群岛海钓3日两夜疯狂海钓" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PeY-yA-CPM">
+                        <rect key="frame" x="98" y="10" width="191" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2016年10月1日 - 2016年10月4日" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Qy-xH-geC">
+                        <rect key="frame" x="98" y="44" width="208" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¥1200/人" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xt1-ki-Gnk">
+                        <rect key="frame" x="98" y="73" width="60" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="发布中" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gRI-Oz-tD2">
+                        <rect key="frame" x="334" y="10" width="45" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="XPj-if-eh3" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="6bI-Y9-qbQ"/>
+                    <constraint firstItem="7Qy-xH-geC" firstAttribute="leading" secondItem="XPj-if-eh3" secondAttribute="trailing" constant="8" id="7pP-Jj-qb5"/>
+                    <constraint firstItem="gRI-Oz-tD2" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="EId-gp-spm"/>
+                    <constraint firstItem="XPj-if-eh3" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="LPa-R8-l4A"/>
+                    <constraint firstItem="Xt1-ki-Gnk" firstAttribute="leading" secondItem="XPj-if-eh3" secondAttribute="trailing" constant="8" id="NWv-2f-cbT"/>
+                    <constraint firstItem="PeY-yA-CPM" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="PaB-1l-usy"/>
+                    <constraint firstItem="PeY-yA-CPM" firstAttribute="leading" secondItem="XPj-if-eh3" secondAttribute="trailing" constant="8" id="RVy-sw-fIo"/>
+                    <constraint firstItem="7Qy-xH-geC" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="dUT-Dc-uHj"/>
+                    <constraint firstItem="Xt1-ki-Gnk" firstAttribute="bottom" secondItem="XPj-if-eh3" secondAttribute="bottom" id="ehE-LS-qHp"/>
+                    <constraint firstAttribute="trailing" secondItem="gRI-Oz-tD2" secondAttribute="trailing" constant="8" id="lMg-Nq-wS5"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="290.5" y="320"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="1470020274400339" width="640" height="416"/>
+    </resources>
+</document>
